@@ -12,7 +12,7 @@ pipeline {
             }
         }
 	
-stage('Webhook Trigger Test') {
+    stage('Webhook Trigger Test') {
             steps {
                 echo "✅ Webhook triggered successfully!"
                 sh '''
